@@ -8,6 +8,7 @@
 | clear X                 | X:=0           |
 | incr X                  | X:=X+1         |
 | decr X                  | X:=X-1         |
+|                         |                |
 |while X not 0 do         |while X not 0 do|       
 |   ...                   |  decr X        |        
 |end	                    |end	  	       |        
