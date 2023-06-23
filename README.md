@@ -1,4 +1,5 @@
 # Bare Bone Programming Language
+
 init <variable> <value>  | init X 5     | X:=5
 -------------------------------------------------
 in <variable>            | in X         | cin>>X
