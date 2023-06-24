@@ -1,3 +1,5 @@
+Author: Diep Nguyen Tam (vietnamese fullname: Nguyễn Tam Điệp)
+
 # Bare Bone Programming Language
 
 | Barebone command        | explain        |
