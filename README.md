@@ -24,7 +24,6 @@ g++ bbc.cpp -o bbc
 ```
 Open Edit environment variables for your account, add path ...\BareBone_Compiler\forWindows
 
-```
 example:
 
 ```
