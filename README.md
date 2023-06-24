@@ -13,5 +13,17 @@
 |   ...                   |  decr X        |        
 |end	                    |end	  	       |        
 |   			                |	               |	                 
-|//                       |//comment       |       
+|//                       |//comment       |    
+
+# For Windows
+
+```
+git clone https://github.com/nguyentamdiep/BareBone_Compiler.git
+cd BareBone_Compiler\forWindows
+g++ bbc.cpp -o bbc
+```
+Open Edit environment variables for your account, add path ...\BareBone_Compiler\forWindows
+
+
+
 
