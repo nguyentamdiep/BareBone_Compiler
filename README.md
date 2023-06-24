@@ -26,6 +26,7 @@ Open Edit environment variables for your account, add path ...\BareBone_Compiler
 
 ```
 example:
+
 ```
 cd BareBone_Compiler\Examples
 bbc example1.txt example1
