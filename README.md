@@ -31,7 +31,20 @@ cd BareBone_Compiler\Examples
 bbc example1.txt example1
 .\example1
 ```
+# For Ubuntu
+```
+apt-get update
+apt-get install build-essential
+cd BareBone_Compiler/forLinux
+g++ bbc.cpp -o bbc
+```
 
+example:
+```
+cd BareBone_Compiler/Examples
+.../BareBone_Compiler/forLinux/bbc example1.txt example1
+./example1
+```
 
 
 
