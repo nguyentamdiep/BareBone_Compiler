@@ -46,6 +46,14 @@ cd BareBone_Compiler/Examples
 ./example1
 ```
 
+# For GUI in Windows
+```
+cd cd BareBone_Compiler\forWindows
+pip install tk
+python main.py
+```
+
+
 
 
 
