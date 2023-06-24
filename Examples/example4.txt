@@ -1,0 +1,15 @@
+//input: X, Y
+//output: Z= X + Y
+in X
+in Y
+clear Z
+while X not 0 do
+    incr Z
+    decr X
+end
+while Y not 0 do
+    incr Z
+    decr Y
+end
+out Z 
+//in jkjk 

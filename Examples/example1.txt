@@ -1,0 +1,16 @@
+//input: x
+//output: if x<>0 then x:=0 else x:=1
+in x
+clear y
+incr y
+while x not 0 do
+    clear x
+    clear y
+end
+while y not 0 do
+    clear x
+    incr x
+clear y
+end
+out x
+//in jkjk 

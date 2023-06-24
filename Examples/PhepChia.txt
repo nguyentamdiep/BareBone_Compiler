@@ -1,0 +1,71 @@
+//input: X, Y
+//output Z=Z/Y
+in X   
+in Y 
+clear Z
+clear kq 
+incr kq
+while Y not 0 do
+    while kq not 0 do
+        clear W
+        while Y not 0 do
+            decr X
+            decr Y
+            incr W
+        end
+        while W not 0 do
+            incr Y
+            decr W
+        end
+        incr Z
+        //kq = sosanh (x,y) Neu X<Y thi kq:=0 Nguoclai kq:=1
+        clear kq
+        //X1 <- X
+        clear X1
+        clear Temp
+        while X not 0 do
+        incr X1
+        incr Temp
+        decr X
+        end
+        while Temp not 0 do
+        incr X
+        decr Temp
+        end
+        //Y1 <- Y
+        clear Y1
+        clear Temp
+        while Y not 0 do
+        incr Y1
+        incr Temp
+        decr Y
+        end
+        while Temp not 0 do
+        incr Y
+        decr Temp
+        end
+        while Y1 not 0 do
+        incr kq
+        decr Y1
+        end
+        while X1 not 0 do
+            decr kq
+            decr X1
+        end
+        //if kq not 0 then kq:=0; else kq:=1;
+        clear y
+        incr y
+        while kq not 0 do
+        clear kq
+        clear y
+        end
+        while y not 0 do
+        clear kq
+        incr kq
+        clear y
+        end
+    end
+clear Y
+end
+out Z
+//in jhjhj 
